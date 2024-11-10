@@ -1,0 +1,39 @@
+{
+  "name": "@nimpl/path-parser",
+  "version": "1.0.0",
+  "description": "Helper for next.js-styled pathname parsing (f.e. /(site)/docs/[key]) to get dynamic params",
+  "files": [
+    "**/*.js",
+    "**/*.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "next",
+    "next.js",
+    "server components",
+    "react.js",
+    "get-pathname",
+    "get-params",
+    "pathname",
+    "params",
+    "parse",
+    "implementation",
+    "rsc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vordgi/nimpl-path-parser.git"
+  },
+  "author": {
+    "name": "Savelyev Alexander",
+    "email": "vordgi1@gmail.com",
+    "url": "https://github.com/vordgi/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "20.12.11",
+    "typescript": "5.4.5"
+  }
+}
