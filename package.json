@@ -1,0 +1,29 @@
+{
+  "name": "nimpl-path-parser",
+  "version": "1.0.0",
+  "description": "Helper for next.js-styled pathname parsing (f.e. /(site)/docs/[key]) to get dynamic params",
+  "scripts": {
+    "nimpl:path-parser": "pnpm --filter @nimpl/path-parser",
+    "lint": "eslint \"package/\"",
+    "eslint": "eslint",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vordgi/nimpl-path-parser.git"
+  },
+  "author": {
+    "name": "Savelyev Alexander",
+    "email": "vordgi1@gmail.com",
+    "url": "https://github.com/vordgi/"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "husky": "9.0.11",
+    "prettier": "3.2.5",
+    "typescript-eslint": "7.8.0"
+  },
+  "license": "MIC"
+}
