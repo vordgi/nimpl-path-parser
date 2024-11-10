@@ -1,9 +1,8 @@
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 import tseslint from "typescript-eslint";
 
-const ignores = ["**/node_modules/**", "**/dist/**", "**/*.js", "**/*.d.ts"];
-
 export default [
+    { ignores: ["**/node_modules/**", "**/dist/**", "**/*.js", "**/*.d.ts"] },
     {
         rules: {
             "prettier/prettier": [
@@ -19,4 +18,4 @@ export default [
     },
     ...tseslint.configs.recommended,
     eslintPluginPrettierRecommended,
-].map((r) => Object.assign(r, { ignores }));
+];
