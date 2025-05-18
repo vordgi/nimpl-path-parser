@@ -2,7 +2,7 @@
 
 Helper for next.js-styled pathname parsing (f.e. /(site)/docs/[key]) to get dynamic params
 
-Visit https://nimpl.tech/docs/path-parser to view the full documentation.
+Visit https://nimpl.dev/docs/path-parser to view the full documentation.
 
 ## Installation
 

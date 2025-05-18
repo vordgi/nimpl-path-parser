@@ -1,6 +1,6 @@
 {
   "name": "@nimpl/path-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper for next.js-styled pathname parsing (f.e. /(site)/docs/[key]) to get dynamic params",
   "files": [
     "**/*.js",
